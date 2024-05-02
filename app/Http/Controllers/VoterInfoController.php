@@ -22,6 +22,7 @@ class VoterInfoController extends Controller
 //                'birth_date' => date('Y-m-d', strtotime($request->input('birth_date'))),
 //                'division' => $request->input('division'),
 //                'district' => $request->input('district'),
+//                'upazila' => $request->input('upazila'),
 //                'union' => $request->input('union'),
 //                'election_area' => $request->input('election_area')
 //            ]);
@@ -42,6 +43,7 @@ class VoterInfoController extends Controller
 //                'birth_date' => date('Y-m-d', strtotime($request->input('birth_date'))),
 //                'division' => $request->input('division'),
 //                'district' => $request->input('district'),
+//                'upazila' => $request->input('upazila'),
 //                'union' => $request->input('union'),
 //                'election_area' => $request->input('election_area')
 //            ]);

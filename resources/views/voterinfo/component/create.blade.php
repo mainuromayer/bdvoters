@@ -52,6 +52,16 @@
                                 </select>
                             </div>
                             <div class="form-group">
+                                <label for="upazila">Upazila</label>
+                                <select class="form-control" id="union">
+                                    <option value="">Select Upazila</option>
+                                    <option value="Upazila A">Upazila A</option>
+                                    <option value="Upazila B">Upazila B</option>
+                                    <option value="Upazila C">Upazila C</option>
+                                    <!-- Add more options as needed -->
+                                </select>
+                            </div>
+                            <div class="form-group">
                                 <label for="union">Union</label>
                                 <select class="form-control" id="union">
                                     <option value="">Select Union</option>

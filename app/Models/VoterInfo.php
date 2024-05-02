@@ -14,6 +14,7 @@ class VoterInfo extends Model
         'birth_date',
         'division',
         'district',
+        'upazila',
         'union',
         'election_area'
     ];
