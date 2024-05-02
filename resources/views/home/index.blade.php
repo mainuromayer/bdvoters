@@ -10,11 +10,11 @@
           content="স্মার্ট পাটগ্রাম উপজেলা বিনির্মাণে, উপজেলা চেয়ারম্যান পদপ্রার্থী মো. রুহুল আমিন বাবলু ভাইকে আনারস মার্কায় ভোট দিন">
     <link rel="shortcut icon" href="{{ asset('frontend/img/favicon.ico') }}" type="image/x-icon">
     <!-- <link rel="preload" href="assets/css/font-solaimanlipi/SolaimanLipi.woff2" as="font" type="font/woff2" crossorigin> -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/font-solaimanlipi/solaimanlipi.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/css/tatsama-font/tatsama-font.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/css/bundle.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/font-solaimanlipi/solaimanlipi.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/tatsama-font/tatsama-font.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/bundle.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/frontendstyle.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/frontendcustom.css') }}">
 </head>
 
 
@@ -66,10 +66,10 @@
                                 class="brand">আনারস</span> <span class="slogan">মার্কায় ভোট দিন</span></h3>
 
                         <div class="logo-container">
-                            <img class="w-auto img-fluid" src="{{ asset('frontend/img/logo.png') }}" alt="logo">
+                            <img class="w-auto img-fluid" src="{{ asset('img/logo.png') }}" alt="logo">
                         </div>
 
-                        <img class="line-design" src="{{ asset('frontend/img/line.png') }}" alt="line">
+                        <img class="line-design" src="{{ asset('img/line.png') }}" alt="line">
                     </div>
                 </div>
 
@@ -153,10 +153,10 @@
                         class="slogan">মার্কায় ভোট দিন</span></h3>
 
                 <div class="logo-container">
-                    <img class="w-auto img-fluid" src="{{ asset('frontend/img/logo.png') }}" alt="logo">
+                    <img class="w-auto img-fluid" src="{{ asset('img/logo.png') }}" alt="logo">
                 </div>
 
-                <img class="line-design" src="{{ asset('frontend/img/line.png') }}" alt="line">
+                <img class="line-design" src="{{ asset('img/line.png') }}" alt="line">
             </div>
         </div>
         <section class="blue-bg"></section>

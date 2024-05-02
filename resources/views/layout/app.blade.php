@@ -6,11 +6,11 @@
 
     <title>SHOP</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('/fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/fonts/icomoon/frontendstyle.css')}}">
     <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/frontendstyle.css')}}">
     <link rel="stylesheet" href="{{asset('/css/progress.css')}}">
     <link rel="stylesheet" href="{{asset('/css/animate.min.css')}}">
 

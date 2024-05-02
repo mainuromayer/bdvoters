@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\VoterInfoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,3 +23,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[HomeController::class,'HomePage']);
 
 Route::get('/dashboard',[DashboardController::class,'DashboardPage']);
+
+Route::get('/addvoterInfo', [VoterInfoController::class, 'addvoterInfo'])->name('voterinfo.index');
+
+
+
+
+//Route::get('/dashboard/userinfo',[VoterInfoController::class,'index']);
+//Route::get('/dashboard/userinfo',[VoterInfoController::class,'createUser']);
+//Route::get('dashboard/user', [VoterInfoController::class, 'index'])->name('user.index');
+//Route::get('dashboard/user/create', [VoterInfoController::class, 'createUser'])->name('user.create');
+//Route::post('dashboard/user/update', [VoterInfoController::class, 'updateUser'])->name('user.store');
+

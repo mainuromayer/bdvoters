@@ -13,7 +13,7 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Icomoon Bootstrap 4 -->
-    <link rel="stylesheet" href="{{asset('/fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/fonts/icomoon/frontendstyle.css')}}">
     <!-- Tempusdominus Bootstrap 4 -->
     <link rel="stylesheet" href="{{asset('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
     <!-- iCheck -->

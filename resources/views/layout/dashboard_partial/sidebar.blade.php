@@ -27,14 +27,14 @@
                 </li>
                 <!-- nav-item-1 | dashboard end -->
 
-{{--                <!-- nav-item-2 | customer start -->--}}
-{{--                <li class="nav-item">--}}
-{{--                    <a href="{{ url('/customerPage') }}" class="nav-link mb-2">--}}
-{{--                        <i class="fa-solid fa-user-friends nav-icon"></i>--}}
-{{--                        <p>Customer</p>--}}
-{{--                    </a>--}}
-{{--                </li>--}}
-{{--                <!-- nav-item-2 | customer end -->--}}
+                <!-- nav-item-2 | addvoterinfo start -->
+                <li class="nav-item">
+                    <a href="{{ url('/addvoterInfo') }}" class="nav-link mb-2">
+                        <i class="fa-solid fa-user-friends nav-icon"></i>
+                        <p>Add Voter Info</p>
+                    </a>
+                </li>
+                <!-- nav-item-2 | addvoterInfo end -->
 
 {{--                <!-- nav-item-3 | category start -->--}}
 {{--                <li class="nav-item">--}}
